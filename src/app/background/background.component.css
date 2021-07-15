@@ -1,0 +1,10 @@
+#background_header {
+  width: 100%;
+  height: 20vh; /* VH mean View height and will be size the header takes in the screen */
+  background-color: #DFFCF1;
+}
+
+#background_body {
+  height: 80%;
+  background-color: #e0e0e0;
+}
