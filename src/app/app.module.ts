@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import {RouterModule} from '@angular/router';
 import { BackgroundComponent } from './background/background.component';
 import { ChatBackgroundComponent } from './chat-background/chat-background.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ChatMessagesComponent } from './chat-messages/chat-messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BackgroundComponent,
-    ChatBackgroundComponent
+    ChatBackgroundComponent,
+    SidebarComponent,
+    ChatMessagesComponent
   ],
   imports: [
     BrowserModule,

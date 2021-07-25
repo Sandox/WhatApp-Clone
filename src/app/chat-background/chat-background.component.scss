@@ -1,0 +1,43 @@
+#chat_background{
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  margin: auto;
+  width: 70%;
+  height: 90%;
+  background-color: #fff;
+  right: 0px;  /* to make the div to be in the center make right and left to 0px */
+  left: 0px;
+  box-shadow: -2px -2px 7px #666; /* draw a shadow around the box to make stand out */
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;}
+  #sidebar {
+    flex-basis: 35%;
+    background-color: #FDFEFE;
+    border-right: 1px solid #CCC;
+    display: flex;
+    flex-direction: column;
+  }
+    #sidebar_header{
+      flex-basis: 70px;
+      background-color: #E5FCFC;
+    }
+
+
+    /*#noChats{
+      padding-top: 30px;
+      text-align: center;
+      color: black;
+      font-size: 10px;
+      font-family: "Arial Rounded MT Bold";
+      font-weight: 100;
+    }*/
+
+  #chat{
+    padding-top: 10px;
+    margin-top: 5px;
+  }
+
+
+

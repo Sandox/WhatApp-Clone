@@ -1,0 +1,42 @@
+#sidebar_content {
+  .converstaion {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    top:5px;
+    bottom: 0%;
+    margin-top: 120px;
+    background-color: #fff;
+    box-shadow: -1px -1px 3px #DADADA; /* draw a shadow around the box to make stand out */
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+
+    .picture {
+      flex-basis: 73px;
+      height: 100%;
+    }
+
+    .messages {
+      height: 100%;
+      border-bottom: 1px solid #FDFEFE;
+    }
+
+    .time-right {
+      float: right;
+      color: #aaa;
+    }
+
+    td {
+      margin: 10px;
+      padding: 10px;
+    }
+
+    p{
+      color: black;
+      font-size: 13px;
+      font-family: "Arial Rounded MT";
+    }
+  }
+}
